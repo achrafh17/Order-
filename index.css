@@ -1,0 +1,121 @@
+body {
+  background-color: hsl(225, 100%, 94%);
+  align-items: center;
+  justify-content: center;
+  border: 0px;
+}
+.main {
+  width: 25%;
+  height: 80vh;
+  background-color: white;
+  margin-left: 75vh;
+  margin-top: 10vh;
+  border-radius: 20px;
+}
+#hero {
+  width: 100%;
+  height: 30vh;
+  margin-bottom: 10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+#order {
+  text-align: center;
+  font-family: sans-serif;
+  color: #152552;
+  font-size: 28px;
+  font-weight: bold;
+}
+#you {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: rgb(122, 115, 128);
+  font-weight: 500;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: -10px;
+  margin-top: -10px;
+}
+.offre {
+  display: flex;
+  background-color: hsl(225, 100%, 98%);
+  margin-left: 5vh;
+  margin-right: 5vh;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+.first {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+#music {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+.plan {
+}
+#annual {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #152552;
+}
+#price {
+  font-family: sans-serif;
+  color: rgb(122, 115, 128);
+  margin-top: -10px;
+}
+#Change {
+  color: rgb(50, 50, 170);
+  color: #594dca;
+  font-weight: 700;
+  font-family: sans-serif;
+  font-size: 14px;
+  text-decoration: underline #8d83df;
+  cursor: pointer;
+}
+#Change:hover {
+  text-decoration: none;
+  color: #8d83df;
+}
+button {
+  width: 80%;
+  margin-left: 5vh;
+  margin-top: 2vh;
+  height: 40px;
+  border-radius: 15px;
+  background-color: #392ae0;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  
+}
+button:hover {
+  background-color: #776df1;
+  box-shadow:0px 2px 6px #776df1;
+}
+#button {
+  color: aliceblue;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+#cancel {
+  text-align: center;
+  font-weight: 600;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: rgb(122, 115, 128);
+  cursor: pointer;
+}
+#cancel:hover {
+  color: #4c5469;
+}
+
